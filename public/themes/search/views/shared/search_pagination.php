@@ -24,7 +24,7 @@ defined('FIR') OR exit();
     <?php endif ?>
 
     <div class="pagination-details">
-        <div class="results-by"><a href="https://astrosearch.com/" target="_blank" data-nd>Results by Astrosearch</a></div>
+        <div class="results-by"><a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank" data-nd>Results by Bing</a></div>
         <div class="x-results"><?=sprintf($lang['x_results'], number_format($data['estimated_results'], 0, $this->lang['decimals_separator'], $this->lang['thousands_separator']))?></div>
     </div>
 </div>

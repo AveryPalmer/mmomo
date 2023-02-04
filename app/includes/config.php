@@ -3,11 +3,11 @@ error_reporting(0);
 define('FIR', true);
 
 define('DB_HOST', 'localhost');
-define('DB_USER', 'admin_hrthe6y');
-define('DB_NAME', 'admin_hrthe6');
-define('DB_PASS', '8fx4aWe88@EXshmwp');
+define('DB_USER', 'YOURDBUSER');
+define('DB_NAME', 'YOURDBNAME');
+define('DB_PASS', 'YOURDBPASS');
 
-define('URL_PATH', 'https://www.astrosearch.com');
+define('URL_PATH', 'https://example.com');
 
 define('PUBLIC_PATH', 'public');
 define('THEME_PATH', 'themes');

@@ -15,7 +15,7 @@ defined('FIR') OR exit();
         </div>
 
         <div class="footer-info">
-            <div class="footer-element desktop-only"><a href="https://www.astrotube.tv">Astrotube</a></div>
+            <div class="footer-element desktop-only"><?=sprintf($lang['powered_by'], '<a href="'.SOFTWARE_URL.'" target="_blank" data-nd>'.SOFTWARE_NAME.'</a>')?></div>
             <div class="footer-element"><?=sprintf($lang['copyright'], $data['year'], e($data['settings']['site_title']))?></div>
         </div>
     </div>

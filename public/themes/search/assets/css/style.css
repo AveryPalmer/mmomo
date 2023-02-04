@@ -3,8 +3,8 @@
 :root {
 --canvas-color: #F5F5F5;
 --background-color: #FFF;
---primary-color: #009ee2;
---secondary-color: #009ee2;
+--primary-color: #00B16A;
+--secondary-color: #009C5E;
 --neutral-color: #999;
 --text-color: #777;
 
@@ -70,8 +70,8 @@
 .dark {
 --canvas-color: #222;
 --background-color: #333;
---primary-color: #009ee2;
---secondary-color: #009ee2;
+--primary-color: #00B16A;
+--secondary-color: #11c77f;
 --neutral-color: #999;
 --text-color: #AAA;
 
@@ -393,7 +393,6 @@ width: 240px;
 height: 80px;
 margin: 0 auto 30px auto;
 overflow: inherit;
-margin-top: 100px;
 }
 .logo-large img {
 width: 240px;
@@ -533,7 +532,6 @@ font-size: 16px;
 padding: 0 10px;
 display: table;
 text-align: center;
-margin-bottom: 30%;
 }
 .search-container {
 position: relative;
